@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Генератор ASCII-арта</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Генератор ASCII</h1>
+    <label for="text-input">Введите текст (латинскими буквами):</label>
+    <input type="text" id="text-input" placeholder="Например: arbuz" maxlength="30">
+    <label for="font-select">Выберите стиль шрифта:</label>
+    <select id="font-select"></select>
+    <button id="generate-btn">Сгенерировать</button>
+    <button id="copy-btn">Копировать</button>
+    <pre id="output"></pre>
+  </div>
+  <script src="figlet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
